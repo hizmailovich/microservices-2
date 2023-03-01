@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  config:
+    import: .env[.properties]
+  application:
+    name: author
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://${DATASOURCE_HOST}:5432/author
+    username: ${DATASOURCE_USERNAME}
+    password: ${DATASOURCE_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
