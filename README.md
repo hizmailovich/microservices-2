@@ -6,8 +6,8 @@ This is a simple "Bookstore App" that contains:
 - Netflix Eureka service registry
 
 ## Glossary
-1. Author: name, surname
-2. Book: title, author
+1. Author
+2. Book
 
 ## Endpoints
 
