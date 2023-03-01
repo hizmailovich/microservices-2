@@ -14,7 +14,7 @@ This is a simple "Bookstore App" that contains:
 | Method     | Path                                                 | Description     |
 |------------|------------------------------------------------------|-----------------|
 | ```GET```  | ```localhost:8080/author-service/api/v1/authors```   | Get all authors |
-| ```GET```  | ```localhost:8080/book-service/api/v1/books/books``` | Get all books   |
+| ```GET```  | ```localhost:8080/book-service/api/v1/books```       | Get all books   |
 | ```POST``` | ```localhost:8080/author-service/api/v1/authors```   | Add new author  |
 | ```POST``` | ```localhost:8080/book-service/api/v1/books```       | Add new book    |
 
