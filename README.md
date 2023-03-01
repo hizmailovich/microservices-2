@@ -1,4 +1,11 @@
 # Microservices-2
+**Tasks:**
+1. Implement 2 patterns from pool using Spring Cloud and/or K8s;
+Pool is this: service-registry, circuit-breaker, api-gateway.
+2. Document your decision in README.md in your repo.
+3. Make pull requests.
+
+## Overview
 This is a simple "Bookstore App" that contains:
 - Book microservice
 - Author microservice
