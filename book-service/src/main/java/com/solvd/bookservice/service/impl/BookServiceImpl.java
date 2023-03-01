@@ -23,7 +23,7 @@ public class BookServiceImpl implements BookService {
 
     @Override
     public Book create(Book book) {
-        Boolean isExists = restTemplate.getForObject("http://localhost:8080/api/v1/authors/{authorId}",
+        Boolean isExists = restTemplate.getForObject("http://author-service/api/v1/authors/{authorId}",
                 Boolean.class,
                 book.getAuthorId());
         if(Boolean.FALSE.equals(isExists)){

@@ -5,7 +5,7 @@ spring:
   config:
     import: .env[.properties]
   application:
-    name: book
+    name: book-service
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://${DATASOURCE_HOST}:5432/book
@@ -16,3 +16,8 @@ spring:
     hibernate:
       ddl-auto: update
     database: postgresql
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
