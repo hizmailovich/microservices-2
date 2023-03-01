@@ -20,7 +20,7 @@ This is a simple "Bookstore App" that contains:
 
 ## Implemented patterns
 ### Service registry
-The service registry pattern is a key part of service discovery. The registry is a database containing the network locations of service instances. A service registry needs to be highly available and up-to-date. One of the most popular implementations of this pattern is Eureka Service Registry.
+The *service registry pattern* is a key part of service discovery. The registry is a database containing the network locations of service instances. A service registry needs to be highly available and up-to-date. One of the most popular implementations of this pattern is *Eureka Service Registry*.
 
 ### Api gateway
-This pattern is a service that provides a single-entry point for certain groups of microservices. It's similar to the Facade pattern from object-oriented design, but in this case, it's part of a distributed system.
+The *api gateway pattern* is a service that provides a single-entry point for certain groups of microservices. It's similar to the *Facade pattern* from object-oriented design, but in this case, it's part of a distributed system.
