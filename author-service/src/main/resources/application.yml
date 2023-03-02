@@ -1,11 +1,11 @@
 server:
-  port: 8080
+  port: 8081
 
 spring:
   config:
     import: .env[.properties]
   application:
-    name: author
+    name: author-service
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://${DATASOURCE_HOST}:5432/author
@@ -15,3 +15,8 @@ spring:
     hibernate:
       ddl-auto: update
     database: postgresql
+
+eureka:
+  client:
+    service-url:
+      default-zone: ${EUREKA_HOST}
